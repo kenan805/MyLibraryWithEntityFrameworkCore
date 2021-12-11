@@ -8,4 +8,4 @@ using (var context = new MyDbContext())
     context.Authors?.Add(new Author { FirstName = "Robert Cecil", LastName = "Martin" });
     context.SaveChanges();
 }
-Console.WriteLine("Success!");
+Console.WriteLine("Success!"); 
