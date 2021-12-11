@@ -18,7 +18,7 @@ namespace MyLibraryWithEntityFrameworkCore.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Data Source=WIN-ML3N7I995PP;Initial Catalog=MyLibraryEntity1;User ID=sa;Password=asus1212;");
+            optionsBuilder.UseSqlServer("Data Source=WIN-ML3N7I995PP;Initial Catalog=MyLibraryEntity1;User ID=sa;Password=******;");
             base.OnConfiguring(optionsBuilder);
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
